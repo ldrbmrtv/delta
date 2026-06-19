@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use DeLTA in academic work, please cite:"
+authors:
+  - family-names: Baimuratov
+    given-names: Ildar
+    orcid: 0000-0002-6573-131X
+title: "DeLTA: Description Logic–based Text Annotation for Knowledge Acquisition"
+version: 0.0
