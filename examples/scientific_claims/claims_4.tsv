@@ -1,0 +1,18 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Roles|value
+#T_SP=webanno.custom.Types|value
+#T_RL=webanno.custom.TypeArrow|value|BT_webanno.custom.Types
+
+
+#Text=Symbiosis and pathogenesis of Sinorhizobium meliloti share common molecular mechanisms.
+1-1	0-9	Symbiosis	Subject[1]	Class	_	_	
+1-2	10-13	and	Subject[1]	_	_	_	
+1-3	14-26	pathogenesis	Subject[1]	Class	_	_	
+1-4	27-29	of	Subject[1]	Class[3]	Distribution|Distribution	1-1[0_3]|1-3[0_3]	
+1-5	30-43	Sinorhizobium	Subject[1]	Class[3]	_	_	
+1-6	44-52	meliloti	Subject[1]	Class[3]	_	_	
+1-7	53-58	share	Restriction[2]	Relation	Of	1-8	
+1-8	59-65	common	Restriction[2]	Only	_	_	
+1-9	66-75	molecular	Restriction[2]	Class[4]	Range	1-7[0_4]	
+1-10	76-86	mechanisms	Restriction[2]	Class[4]	_	_	
+1-11	86-87	.	_	_	_	_	

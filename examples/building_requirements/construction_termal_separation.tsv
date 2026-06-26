@@ -1,0 +1,41 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Roles|value
+#T_SP=webanno.custom.Types|value
+#T_RL=webanno.custom.RoleArrow|value|BT_webanno.custom.Roles
+#T_RL=webanno.custom.TypeArrow|value|BT_webanno.custom.Types
+
+
+#Text=To reduce the effects of thermal bridging and/or contact corrosion, additional thermal separation elements or layers may be required in metal brackets or bracket constructions towards the anchoring base.
+1-1	0-2	To	_	_	_	_	_	_	
+1-2	3-9	reduce	_	_	_	_	_	_	
+1-3	10-13	the	_	_	_	_	_	_	
+1-4	14-21	effects	_	_	_	_	_	_	
+1-5	22-24	of	_	_	_	_	_	_	
+1-6	25-32	thermal	_	_	_	_	_	_	
+1-7	33-41	bridging	_	_	_	_	_	_	
+1-8	42-45	and	_	_	_	_	_	_	
+1-9	45-46	/	_	_	_	_	_	_	
+1-10	46-48	or	_	_	_	_	_	_	
+1-11	49-56	contact	_	_	_	_	_	_	
+1-12	57-66	corrosion	_	_	_	_	_	_	
+1-13	66-67	,	_	_	_	_	_	_	
+1-14	68-78	additional	Restriction[1]	Class[5]	To|To	1-24[2_1]|1-27[3_1]	Distribution|Distribution	1-17[0_5]|1-19[0_5]	
+1-15	79-86	thermal	Restriction[1]	Class[5]	_	_	_	_	
+1-16	87-97	separation	Restriction[1]	Class[5]	_	_	_	_	
+1-17	98-106	elements	Restriction[1]	Class	_	_	Of	1-18	
+1-18	107-109	or	Restriction[1]	Or	_	_	Range	1-23	
+1-19	110-116	layers	Restriction[1]	Class	_	_	Of	1-18	
+1-20	117-120	may	Restriction[1]	Some[6]	_	_	_	_	
+1-21	121-123	be	Restriction[1]	Some[6]	_	_	_	_	
+1-22	124-132	required	Restriction[1]	Some[6]	_	_	_	_	
+1-23	133-135	in	Restriction[1]	Relation	_	_	Of	1-20[6_0]	
+1-24	136-141	metal	Subject[2]	Class[7]	_	_	_	_	
+1-25	142-150	brackets	Subject[2]	Class[7]	_	_	_	_	
+1-26	151-153	or	_	_	_	_	_	_	
+1-27	154-161	bracket	Subject[3]	Class[8]	_	_	_	_	
+1-28	162-175	constructions	Subject[3]	Class[8]	_	_	_	_	
+1-29	176-183	towards	Restriction[4]	Relation	Concatenation	1-14[1_4]	Range	1-23	
+1-30	184-187	the	Restriction[4]	_	_	_	_	_	
+1-31	188-197	anchoring	Restriction[4]	Class[9]	_	_	Range	1-29[0_9]	
+1-32	198-202	base	Restriction[4]	Class[9]	_	_	_	_	
+1-33	202-203	.	_	_	_	_	_	_	

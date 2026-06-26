@@ -1,0 +1,18 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Roles|value
+#T_SP=webanno.custom.Types|value
+#T_RL=webanno.custom.RoleArrow|value|BT_webanno.custom.Roles
+#T_RL=webanno.custom.TypeArrow|value|BT_webanno.custom.Types
+
+
+#Text=External doors and windows shall open outwards except shopfronts.
+1-1	0-8	External	Subject[1]	Class[4]	Distribution	1-8[3_1]	_	_	
+1-2	9-14	doors	Subject[1]	Class[4]	_	_	_	_	
+1-3	15-18	and	_	_	_	_	_	_	
+1-4	19-26	windows	Subject	Class	Distribution	1-8[3_0]	_	_	
+1-5	27-32	shall	Restriction[2]	_	To|To	1-1[1_2]|1-4[0_2]	_	_	
+1-6	33-37	open	Restriction[2]	Class[5]	_	_	_	_	
+1-7	38-46	outwards	Restriction[2]	Class[5]	_	_	_	_	
+1-8	47-53	except	Subject[3]	Not	_	_	_	_	
+1-9	54-64	shopfronts	Subject[3]	Class	_	_	Of	1-8	
+1-10	64-65	.	_	_	_	_	_	_	

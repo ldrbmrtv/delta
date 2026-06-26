@@ -1,0 +1,23 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Roles|value
+#T_SP=webanno.custom.Types|value
+#T_RL=webanno.custom.TypeArrow|value|BT_webanno.custom.Types
+
+
+#Text=The use of ultrasound irradiation in biodiesel transesterification reactions does not require any additional heating.
+1-1	0-3	The	Subject[1]	_	_	_	
+1-2	4-7	use	Subject[1]	_	_	_	
+1-3	8-10	of	Subject[1]	_	_	_	
+1-4	11-21	ultrasound	Subject[1]	Class[3]	Domain	1-6[0_3]	
+1-5	22-33	irradiation	Subject[1]	Class[3]	_	_	
+1-6	34-36	in	Subject[1]	Relation	_	_	
+1-7	37-46	biodiesel	Subject[1]	Class[4]	Range	1-6[0_4]	
+1-8	47-66	transesterification	Subject[1]	Class[4]	_	_	
+1-9	67-76	reactions	Subject[1]	Class[4]	_	_	
+1-10	77-81	does	Restriction[2]	_	_	_	
+1-11	82-85	not	Restriction[2]	Not	_	_	
+1-12	86-93	require	Restriction[2]	Relation	Of	1-13	
+1-13	94-97	any	Restriction[2]	Some	Of	1-11	
+1-14	98-108	additional	Restriction[2]	Class[5]	Range	1-12[0_5]	
+1-15	109-116	heating	Restriction[2]	Class[5]	_	_	
+1-16	116-117	.	_	_	_	_	

@@ -1,0 +1,29 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Roles|value
+#T_SP=webanno.custom.Types|value
+#T_RL=webanno.custom.RoleArrow|value|BT_webanno.custom.Roles
+#T_RL=webanno.custom.TypeArrow|value|BT_webanno.custom.Types
+
+
+#Text=If the dwelling only has one habitable room, a minimum ventilation rate of 13l/s should be used.
+1-1	0-2	If	Subject[1]	_	_	_	_	_	
+1-2	3-6	the	Subject[1]	_	_	_	_	_	
+1-3	7-15	dwelling	Subject[1]	Class	_	_	Domain	1-5	
+1-4	16-20	only	Subject[1]	_	_	_	_	_	
+1-5	21-24	has	Subject[1]	Relation	_	_	Of	1-6	
+1-6	25-28	one	Subject[1]	Number	_	_	_	_	
+1-7	29-38	habitable	Subject[1]	Class[3]	_	_	Range	1-5[0_3]	
+1-8	39-43	room	Subject[1]	Class[3]	_	_	_	_	
+1-9	43-44	,	_	_	_	_	_	_	
+1-10	45-46	a	Restriction[2]	_	To	1-1[1_2]	_	_	
+1-11	47-54	minimum	Restriction[2]	Comparison	_	_	_	_	
+1-12	55-66	ventilation	Restriction[2]	Property[4]	_	_	Of	1-18[6_4]	
+1-13	67-71	rate	Restriction[2]	Property[4]	_	_	_	_	
+1-14	72-74	of	Restriction[2]	_	_	_	_	_	
+1-15	75-78	13l	Restriction[2]	Literal[5]	_	_	Of|Range	1-11[0_5]|1-12[4_5]	
+1-16	78-79	/	Restriction[2]	Literal[5]	_	_	_	_	
+1-17	79-80	s	Restriction[2]	Literal[5]	_	_	_	_	
+1-18	81-87	should	Restriction[2]	Only[6]	_	_	_	_	
+1-19	88-90	be	Restriction[2]	Only[6]	_	_	_	_	
+1-20	91-95	used	Restriction[2]	_	_	_	_	_	
+1-21	95-96	.	_	_	_	_	_	_	
